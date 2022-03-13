@@ -19,6 +19,7 @@
                     <div class="card text-left" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">{{ $product->name }}</h5>
+                            <img class="card-img-top" src="{{$product->image}}" alt="photo">
                             <p class="card-text">{{ $product->description }}</p>
                             <p class="card-text text-dark">${{ $product->price }}</p>
                             <p class="card-text text-danger">Số lượt xem: {{ $product->view_count }}</p>
